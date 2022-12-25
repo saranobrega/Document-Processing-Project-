@@ -1,4 +1,5 @@
 # Document-Processing-Project-
+Implementing the Faster-RCNN model for an object detection project.
 
 
 ## Technologies
