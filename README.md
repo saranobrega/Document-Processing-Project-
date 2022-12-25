@@ -1,5 +1,5 @@
-# Document-Processing-Project-
-Implementing the Faster-RCNN model for an object detection project.
+# Object detection - Document Processing Project
+Implementing the Faster-RCNN model for an object detection project. The goal is to detect main features in document transactions, namely headers, tables, footers and order line items. 
 
 
 ## Technologies
