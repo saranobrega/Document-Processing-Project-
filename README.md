@@ -1,4 +1,4 @@
-# Object detection - Document Processing Project
+# Object detection - Document Understanding Project
 Implementing the Faster-RCNN model for an object detection project. The goal is to detect main features in document images, namely headers, tables, footers and order line items. 
 
 
