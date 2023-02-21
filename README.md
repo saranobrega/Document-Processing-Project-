@@ -1,16 +1,17 @@
 # Object detection - Document Understanding Project
 Implementing the Faster-RCNN model for an object detection project. The goal is to detect main features in document images, namely headers, tables, footers and order line items. 
 
+Note: for privacy reasons I cannot provide the full code implementation. For more information reach me out!
 
-## Technologies
-This project is created with:
-- Python 3.10.8
-- Pytorch 1.12.0
-- Pytorch Lightning 1.7.7
-- Pandas 1.5.1
-- Numpy 1.23.4
-- Seaborn 0.12.1
-- Wandb 0.13.5
+## ****Pre-requisites****
+
+- Pytorch (v14.16.1 or later)
+- Pytorch Lightning (v1.8.2)
+- Torchvision (v0.14.0)
+- Cuda (v11.7)
+- Albumentations (v1.3.0)
+- Torchmetrics (v0.11.0)
+- wandb (v0.13.5)
 
 ## Notebooks
 
