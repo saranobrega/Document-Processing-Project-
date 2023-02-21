@@ -15,6 +15,6 @@ Note: for privacy reasons I cannot provide the full code implementation. For mor
 
 ## Notebooks
 
-- Convert_to_coco notebook converts annotations and categories to COCO format. 
+- create_n_samples_dataset notebook converts annotations and categories to COCO format. 
 
 - faster_rcnn_baseline_v0 notebook is the baseline Faster-RCNN model for this project. This means no hyperparameter tuning or data augmentation was performed in this baseline model. 
