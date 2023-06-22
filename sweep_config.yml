@@ -1,0 +1,24 @@
+method: random
+metric:
+  goal: minimize
+  name: train_loss
+parameters:
+  batch_size:
+    values:
+    - 2
+    - 4
+    - 8
+  gradient_clip_val:
+    values:
+    - 0
+    - 0.5
+  optimizer:
+    values:
+    - adam
+    - adamw
+    - adamax
+  weight_decay:
+    values:
+    - 0.01
+    - 0.1
+program: train.py
