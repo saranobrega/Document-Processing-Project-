@@ -13,6 +13,46 @@ Implementing Faster-RCNN model in Pytorch Lightning for an object detection proj
 - Torchmetrics (v0.11.0)
 - wandb (v0.13.5)
 
+### Methodology
+
+1. Exploration of Tutorials
+2. Build a base model with a subset of a dataset 
+3. Tracking + Evaluation + NMS of the baseline model  (Weights and Biases) 
+4. Optimize training with multi-GPU 
+5. Implement 
+    1. Convert notebook to a script that can be called using a terminal  
+    2. Optimize the base model with hyper-parameters using the subset of the dataset
+6. Other: Regularization & Data Augmentation 
+
+   - Research possible data augmentation techniques for documents.
+
+    - Define an augmentation pipeline that gives the best results.
+
+1. Include model training in workist auto-train pipelines (data download, model training, model evaluation, model packaging, model registration, and so on)
+
+**Optimization**
+
+- **Explore/Implement optimization in PyTorch lightning:** Automatic Batch Size Finder, Learning Rate Finder, Optimizer Finder, Learning rate warm-up, Gradient Clipper, etc.
+- **Early Stopping**
+- **Optimize Faster RCNN parameters** (number of proposals, NMS threshold, IoU threshold…)
+- Check if we **need more training data or reduce model complexity**
+
+**Training**
+
+- Implementation of multi-GPU training
+- Track metrics using Weights and Biases on single and multi-GPU training
+
+**Evaluation**
+
+- Precision vs Recall graph
+- Recall vs IoU graph
+- Try out multiple confidence thresholds
+- F1 Score
+- Check class-level AP
+- Check all mAPs stated in Notion (mAP50, etc).
+- Evaluate scores (Recall, Accuracy)
+
+
 ## Notebooks
 
 - create_n_samples_dataset notebook  converts annotations and categories to COCO format. 
