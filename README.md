@@ -1,7 +1,7 @@
 # Object detection - Document Understanding Project
 Implementing Faster-RCNN model in Pytorch Lightning for an object detection project. The goal is to detect main features in document images, namely headers, tables, footers and order line items. 
 
-Note: for privacy reasons I cannot provide the full code implementation. For more information reach me out!
+
 
 ## ****Pre-requisites****
 
@@ -15,7 +15,7 @@ Note: for privacy reasons I cannot provide the full code implementation. For mor
 
 ## Notebooks
 
-- create_n_samples_dataset notebook (coming!) converts annotations and categories to COCO format. 
+- create_n_samples_dataset notebook  converts annotations and categories to COCO format. 
 
 - faster_rcnn_baseline_v0 notebook is the baseline Faster-RCNN model for this project. This means no hyperparameter tuning or data augmentation was performed in this baseline model.
 
